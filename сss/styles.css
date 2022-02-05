@@ -18,14 +18,13 @@ body {
   font-family: var(--text-primary-font);
   letter-spacing: var(--letter-primary-spacing);
   color: var(--text-primary-color);
-  background-color: var(--primary-white-color);
-}
+  background-color: var(--primary-white-color);}
 
----------------/* СБРОС ОФОРМЛЕНИЯ СПИСКА И ССЫЛОК */------------------
-.list {
+/* СБРОС ОФОРМЛЕНИЯ ДЛЯ СПИСКОВ И ССЫЛОК */
+ .list{
   list-style: none;
 }
-.link {
+.link{
   text-decoration: none;
 }
 --------------------/* HEADER И FOOOTER НАЧАЛО */--------------------
