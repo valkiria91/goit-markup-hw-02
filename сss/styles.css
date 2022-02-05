@@ -111,3 +111,7 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--btn-hero-hover-color);
+}
