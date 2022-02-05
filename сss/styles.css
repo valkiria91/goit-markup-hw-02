@@ -1,14 +1,17 @@
+
 :root {
-  --primary-white-color: #ffffff;
-  --theme-dark-color: #2f303a;
-  --theme-light-color: #f5f4fa;
-  --accent-color: #2196f3;
-  --logo-black-color: #000000;
-  --text-primary-color: #757575;
-  --text-secondary-color: #212121;
-  --text-primary-font: Roboto, sans-serif;
-  --text-secondary-font: Raleway, sans-serif;
-  --letter-primary-spacing: 0.03em;
+  --primary-white-color: #ffffff;             /**белый цвет фона и текста, логотипа в футере**/
+  --theme-dark-color: #2f303a;                /*темно серый цвет фона**/
+  --theme-light-color: #f5f4fa;               /**светло серый текст фона**/
+  --accent-color: #2196f3;                    /**синий цвет выделения ссылок и кнопок при ховере, фокусе**/
+  --btn-hero-hover-color: #188CE8;            /**цвет кнопки при ховере в герое**/
+  --logo-black-color: #000000;                /**цвет второй части логотипа в хедере **/
+  --contact-footer-color: rgba(255, 255, 255, 0, 6); /**цвет контактов в футере **/
+  --text-primary-color: #757575;              /**основной светло серый цвет текста**/
+  --text-secondary-color: #212121;            /**темно серый цвет тектса**/
+  --text-primary-font: Roboto, sans-serif;      /**основшой шрифт текта**/
+  --text-secondary-font: Raleway, sans-serif;   /**шрифт текста логотипа**/
+  --letter-primary-spacing: 0.03em;             /**основное межбуквенное растоани**/
 }
 
 body {
@@ -18,21 +21,22 @@ body {
   background-color: var(--primary-white-color);
 }
 
-/* СБРОС ОФОРМЛЕНИЯ ТЕКТА И ССЫЛОК */
+---------------/* СБРОС ОФОРМЛЕНИЯ СПИСКА И ССЫЛОК */------------------
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
-/* HEADER НАЧАЛО */
+--------------------/* HEADER И FOOOTER НАЧАЛО */--------------------
+/* НEADER */
 .header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-/* LOGO HEADER*/
+/* LOGO HEADER + FOOTER*/
 .logo {
   font-family: var(--text-secondary-font);
   font-weight: 700;
@@ -51,7 +55,7 @@ body {
 .nav-item {
   color: var(--text-secondary-color);
 }
-.contact-item {
+.contact-header {
   color: inherit;
 }
 .nav-item:focus,
@@ -62,4 +66,24 @@ body {
   color: var(--accent-color);
 }
 
-/*FOOTER + LOGO*/
+/* FOTTER */
+.footer {
+  font-size: 14px;
+  line-height: 1.71;
+  background-color: var(--theme-dark-color);
+}
+/* КОНТАКТЫ В ФУТЕРЕ */
+.address {
+  font-style: normal;
+  color: var(--primary-white-color);
+}
+.contact-footer {
+  font-style: normal;
+  color: var(--contact-footer-color);
+}
+.contact-footer:hover,
+.contact-footer:focus{
+  color: var(--accent-color);
+}
+
+--------------------/* HEADER И FOOOTER КОНЕЦ */-------------------
