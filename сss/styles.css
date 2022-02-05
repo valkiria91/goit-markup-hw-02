@@ -1,33 +1,33 @@
-
 :root {
-  --primary-white-color: #ffffff;             /**белый цвет фона и текста, логотипа в футере**/
-  --theme-dark-color: #2f303a;                /*темно серый цвет фона**/
-  --theme-light-color: #f5f4fa;               /**светло серый текст фона**/
-  --accent-color: #2196f3;                    /**синий цвет выделения ссылок и кнопок при ховере, фокусе**/
-  --btn-hero-hover-color: #188CE8;            /**цвет кнопки при ховере в герое**/
-  --logo-black-color: #000000;                /**цвет второй части логотипа в хедере **/
+  --primary-white-color: #ffffff; /**белый цвет фона и текста, логотипа в футере**/
+  --theme-dark-color: #2f303a; /*темно серый цвет фона**/
+  --theme-light-color: #f5f4fa; /**светло серый текст фона**/
+  --accent-color: #2196f3; /**синий цвет выделения ссылок и кнопок при ховере, фокусе**/
+  --btn-hero-hover-color: #188ce8; /**цвет кнопки при ховере в герое**/
+  --logo-black-color: #000000; /**цвет второй части логотипа в хедере **/
   --contact-footer-color: rgba(255, 255, 255, 0, 6); /**цвет контактов в футере **/
-  --text-primary-color: #757575;              /**основной светло серый цвет текста**/
-  --text-secondary-color: #212121;            /**темно серый цвет тектса**/
-  --text-primary-font: Roboto, sans-serif;      /**основшой шрифт текта**/
-  --text-secondary-font: Raleway, sans-serif;   /**шрифт текста логотипа**/
-  --letter-primary-spacing: 0.03em;             /**основное межбуквенное растоани**/
+  --text-primary-color: #757575; /**основной светло серый цвет текста**/
+  --text-secondary-color: #212121; /**темно серый цвет тектса**/
+  --text-primary-font: Roboto, sans-serif; /**основшой шрифт текта**/
+  --text-secondary-font: Raleway, sans-serif; /**шрифт текста логотипа**/
+  --letter-primary-spacing: 0.03em; /**основное межбуквенное растоани**/
 }
 
 body {
   font-family: var(--text-primary-font);
   letter-spacing: var(--letter-primary-spacing);
   color: var(--text-primary-color);
-  background-color: var(--primary-white-color);}
+  background-color: var(--primary-white-color);
+}
 
 /* СБРОС ОФОРМЛЕНИЯ ДЛЯ СПИСКОВ И ССЫЛОК */
- .list{
+.list {
   list-style: none;
 }
-.link{
+.link {
   text-decoration: none;
 }
---------------------/* HEADER И FOOOTER НАЧАЛО */--------------------
+/* -------------------- HEADER И FOOOTER НАЧАЛО -------------------- */
 /* НEADER */
 .header {
   font-weight: 500;
@@ -81,9 +81,33 @@ body {
   color: var(--contact-footer-color);
 }
 .contact-footer:hover,
-.contact-footer:focus{
+.contact-footer:focus {
   color: var(--accent-color);
 }
 
---------------------/* HEADER И FOOOTER КОНЕЦ */-------------------
+/* -----------------------HEADER, FOTTER КОНЕЦ-------------------------- */
 
+/* HERO */
+.hero {
+  background-color: var(--theme-dark-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
