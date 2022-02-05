@@ -13,10 +13,14 @@ body {
   color: var(--text-primary-color);
   background-color: var(--primary-white-color);
 }
-
+/* СБРОС ОФОРМЛЕНИЯ ТЕКТА И ССЫЛОК */
+.list {
+  list-style: none;
+}
 .link {
   text-decoration: none;
 }
+/* HEADER НАЧАЛО */
 
 /* LOGO HEADER AND FOTTER */
 .logo {
