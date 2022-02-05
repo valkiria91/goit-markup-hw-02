@@ -1,18 +1,23 @@
 :root {
   --primary-white-color: #ffffff;
+  --theme-dark-color: #2f303a;
+  --theme-light-color: #f5f4fa;
   --accent-color: #2196f3;
   --logo-black-color: #000000;
   --text-primary-color: #757575;
-  --text-title-color: #212121;
+  --text-secondary-color: #212121;
   --text-primary-font: Roboto, sans-serif;
   --text-secondary-font: Raleway, sans-serif;
+  --letter-primary-spacing: 0.03em;
 }
 
 body {
   font-family: var(--text-primary-font);
+  letter-spacing: var(--letter-primary-spacing);
   color: var(--text-primary-color);
   background-color: var(--primary-white-color);
 }
+
 /* СБРОС ОФОРМЛЕНИЯ ТЕКТА И ССЫЛОК */
 .list {
   list-style: none;
@@ -21,13 +26,18 @@ body {
   text-decoration: none;
 }
 /* HEADER НАЧАЛО */
-
-/* LOGO HEADER AND FOTTER */
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* LOGO HEADER*/
 .logo {
-  font-family: Raleway;
+  font-family: var(--text-secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   color: var(--accent-color);
 }
 .logo-header {
@@ -36,3 +46,20 @@ body {
 .logo-footer {
   color: var(--primary-white-color);
 }
+
+/*НАВИГАЦИЯ САЙТА И КОНТАКТЫ В ХЕДЕРЕ */
+.nav-item {
+  color: var(--text-secondary-color);
+}
+.contact-item {
+  color: inherit;
+}
+.nav-item:focus,
+.nav-item:hover,
+.contact-item:focus,
+.contact-item:hover,
+.current {
+  color: var(--accent-color);
+}
+
+/*FOOTER + LOGO*/
