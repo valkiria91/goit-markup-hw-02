@@ -10,7 +10,7 @@
   --text-secondary-color: #212121; /**темно серый цвет тектса**/
   --text-primary-font: Roboto, sans-serif; /**основшой шрифт текта**/
   --text-secondary-font: Raleway, sans-serif; /**шрифт текста логотипа**/
-  --letter-primary-spacing: 0.03em; /**основное межбуквенное растоани**/
+  --letter-primary-spacing: 0.03em; /**основное межбуквенное растояниe**/
 }
 
 body {
