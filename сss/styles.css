@@ -84,9 +84,9 @@ body {
 .contact-footer:focus {
   color: var(--accent-color);
 }
-
 /* -HEADER, FOTTER КОНЕЦ */
 
+/* MAIN НАЧАЛО */
 /* HERO */
 .hero {
   background-color: var(--theme-dark-color);
@@ -118,15 +118,43 @@ body {
 
 /* СЕКЦИИ*/
 /* ОСОБЕННОСТИ */
+.features {
+  font-size: 14px;
+}
 .features-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--text-secondary-color);
 }
 .features-text {
-  font-size: 14px;
   line-height: 1.7;
 }
-/* ЧЕМ МЫ ЗАНИМАЕМСЯ + */
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ + НАША КОМАНДА */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--text-secondary-color);
+}
+.team {
+ background-color: var(--theme-light-color);
+}
+.team-card {
+  font-size: 16px;
+  line-height: 1.19;
+  background-color: var(--primary-white-color);
+}
+.team-name {
+  font-weight: 500;
+  text-align: center;
+  color: var(--text-secondary-color);
+}
+.team-position {
+  text-align: center;
+  color: var(--text-primary-color);
+
+  /*////////////////////////////////////////////////////  */
+ /*Портфолио */
+.button-
