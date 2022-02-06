@@ -122,7 +122,6 @@ body {
   font-size: 14px;
 }
 .features-title {
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--text-secondary-color);
@@ -132,7 +131,6 @@ body {
 }
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ + НАША КОМАНДА */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -173,7 +171,6 @@ body {
   background-color: var(--accent-color);
 }
 .portfolio-project {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
