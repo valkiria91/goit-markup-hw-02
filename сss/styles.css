@@ -59,8 +59,8 @@ body {
 }
 .nav-item:focus,
 .nav-item:hover,
-.contact-item:focus,
-.contact-item:hover,
+.contact-header:focus,
+.contact-header:hover,
 .current {
   color: var(--accent-color);
 }
