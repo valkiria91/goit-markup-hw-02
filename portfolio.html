@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Веб-студия</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./сss/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./сss/styles.css" />
   </head>
   <body>
-     <header class="header">
+    <header class="header">
       <nav>
         <a class="logo link" lang="en" href="./index.html"
           >Web<span class="logo-header">Studio</span></a
@@ -32,36 +35,36 @@
     <main>
       <section>
         <h1 hidden>Портфолио cтудии</h1>
-        <h2>Примеры работ</h2>
-        <ul>
+        <h2 hidden>Примеры работ</h2>
+        <ul class="button list">
           <li>
-            <button class="button" type="button">Все</button>
+            <button class="button-filter" type="button">Все</button>
           </li>
           <li>
-            <button class="button" type="button">Веб-сайты</button>
+            <button class="button-filter" type="button">Веб-сайты</button>
           </li>
           <li>
-            <button class="button" type="button">Приложения</button>
+            <button class="button-filter" type="button">Приложения</button>
           </li>
           <li>
-            <button class="button" type="button">Дизайн</button>
+            <button class="button-filter" type="button">Дизайн</button>
           </li>
           <li>
-            <button class="button" type="button">Маркетинг</button>
+            <button class="button-filter" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul>
-          <li>
+        <ul class="portfolio list">
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img1.jpg"
               alt="Проект веб-сайта"
               width="370"
               height="294"
             />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h3 class="portfolio-project">Технокряк</h3>
+            <p class="portfolio-filter">Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img2.jpg"
               alt="Проект дизайна постера"
@@ -69,81 +72,95 @@
               height="294"
             />
             <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-            <p>Дизайн</p>
+            <p class="portfolio-filter">Дизайн</p>
           </li>
-          <li>
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img3.jpg"
               alt="Проект приложения"
               width="370"
               height="294"
             />
-            <h3>Ресторан <span lang="en">Seafood</span></h3>
-            <p>Приложение</p>
+            <h3 class="portfolio-project">Ресторан <span lang="en">Seafood</span></h3>
+            <p class="portfolio-filter">Приложение</p>
           </li>
-          <li>
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img4.jpg"
               alt="Маркетинговый проект"
               width="370"
               height="294"
             />
-            <h3>Проект <span lang="en">Prime</span></h3>
-            <p>Маркетинг</p>
+            <h3 class="portfolio-project">Проект <span lang="en">Prime</span></h3>
+            <p class="portfolio-filter">Маркетинг</p>
           </li>
-          <li>
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img5.jpg"
               alt="Проект приложения"
               width="370"
               height="294"
             />
-            <h3>Проект <span lang="en">Boxes</span></h3>
-            <p>Приложение</p>
+            <h3 class="portfolio-project">Проект <span lang="en">Boxes</span></h3>
+            <p class="portfolio-filter">Приложение</p>
           </li>
-          <li>
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img6.jpg"
               alt="Проект веб-сайта"
               width="370"
               height="294"
             />
-            <h3 lang="en">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h3 class="portfolio-project" lang="en">Inspiration has no Borders</h3>
+            <p class="portfolio-filter">Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-card">
             <img
               src="./images/portfolio-img7.jpg"
               alt="Проект дизайна издания"
               width="370"
               height="294"
             />
-            <h3>Издание <span lang="en">Limited Edition</span></h3>
-            <p>Дизайн</p>
+            <h3 class="portfolio-project">Издание <span lang="en">Limited Edition</span></h3>
+            <p class="portfolio-filter">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/portfolio-img8.jpg" alt="Маркетинговый проект" width="370" height="294" />
-            <h3>Проект <span lang="en">LAB</h3>
-            <p>Маркетинг</p>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-img8.jpg"
+              alt="Маркетинговый проект"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-project" Проект <span lang="en">LAB</h3>
+            <p class="portfolio-filter">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/portfolio-img9.jpg" alt="Проект приложения" width="370" height="294" />
-            <h3 lang="en">Growing Business</h3>
-            <p>Приложение</p>
+          <li class="portfolio-card">
+            <img
+              src="./images/portfolio-img9.jpg"
+              alt="Проект приложения"
+              width="370"
+              height="294"
+            />
+            <h3 class="portfolio-project" lang="en">Growing Business</h3>
+            <p class="portfolio-filter">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
-  <footer class="footer">
+    <footer class="footer">
       <a class="logo link" lang="en" href="./index.html"
         >Web<span class="logo-footer">Studio</span></a
       >
       <address id="contacts">
         <ul class="contact list">
           <li>
-            <a class="address link" href="https://goo.gl/maps/kSrC2yLhnCnVmhvy7">г. Киев, пр-т Леси Украинки, 26</a>
+            <a class="address link" href="https://goo.gl/maps/kSrC2yLhnCnVmhvy7"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
           </li>
-          <li><a class="contact-footer link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a class="contact-footer link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
           <li><a class="contact-footer link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>

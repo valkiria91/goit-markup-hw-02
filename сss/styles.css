@@ -103,7 +103,7 @@ body {
 .hero-button {
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
+  font-size: text-normal-size;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
@@ -139,7 +139,7 @@ body {
   color: var(--text-secondary-color);
 }
 .team {
- background-color: var(--theme-light-color);
+  background-color: var(--theme-light-color);
 }
 .team-card {
   font-size: 16px;
@@ -154,7 +154,32 @@ body {
 .team-position {
   text-align: center;
   color: var(--text-primary-color);
+}
 
-  /*////////////////////////////////////////////////////  */
- /*Портфолио */
-.button-
+/*////////////////////////////////////////////////////  */
+/*ПОРТФОЛИО */
+.button-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  color: var(--text-secondary-color);
+  background-color: var(--theme-light-color);
+}
+.button-filter:active {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary-color);
+}
+.portfolio-filter {
+  font-size: 16px;
+  line-height: 1.88;
+}
