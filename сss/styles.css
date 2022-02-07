@@ -21,9 +21,6 @@ body {
 .link {
   text-decoration: none;
 }
-.current {
-  color: var(--accent-color);
-}
 
 /* НEADER */
 /* LOGO-HEADER + LOGO-FOOTER*/
