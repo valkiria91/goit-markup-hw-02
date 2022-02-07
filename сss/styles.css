@@ -24,8 +24,10 @@ body {
 .link {
   text-decoration: none;
 }
+.current {
+  color: var(--accent-color);
+}
 /*  HEADER И FOOOTER НАЧАЛO */
-/* НEADER */
 /* LOGO-HEADER + LOGO-FOOTER*/
 .logo {
   font-family: var(--text-secondary-font);
@@ -59,23 +61,20 @@ body {
 .nav-item:focus,
 .nav-item:hover,
 .contact-item:focus,
-.contact-item:hover,
-.current {
+.contact-item:hover {
   color: var(--accent-color);
 }
-
 /* FOTTER */
-.footer {
+address {
+  font-style: normal;
+}
+.address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: var(--theme-dark-color);
 }
-/* КОНТАКТЫ В ФУТЕРЕ */
-address {
-  font-style: normal;
-}
-.address {
+.address-street {
   color: var(--primary-white-color);
 }
 .contact-footer {
@@ -119,19 +118,17 @@ address {
 
 /* СЕКЦИИ*/
 /* ОСОБЕННОСТИ */
-.features-title,
-.features-text {
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
 
 .features-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 .features-text {
+  font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--text-secondary-color);
 }
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ + НАША КОМАНДА */
@@ -148,17 +145,17 @@ address {
 .team-card {
   background-color: var(--primary-white-color);
 }
-.team-name,
-.team-position {
+.team-title,
+.team-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-name {
+.team-title {
   font-weight: 500;
 }
-.team-position {
+.team-text {
   color: var(--text-secondary-color);
 }
 
@@ -181,7 +178,7 @@ address {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.portfolio-project {
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
