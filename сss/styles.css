@@ -3,11 +3,8 @@
   --theme-dark-color: #2f303a; /*темно серый цвет фона**/
   --theme-light-color: #f5f4fa; /**светло серый текст фона**/
   --accent-color: #2196f3; /**синий цвет выделения ссылок и кнопок при ховере, фокусе**/
-  --btn-hero-hover-color: #188ce8; /**цвет кнопки при ховере в герое**/
-  --logo-black-color: #000000; /**цвет второй части логотипа в хедере **/
-  --contact-footer-color: rgba(255, 255, 255, 0.6); /**цвет контактов в футере **/
-  --text-secondary-color: #757575; /**основной светло серый цвет текста**/
   --text-primary-color: #212121; /**темно серый цвет тектса**/
+  --text-secondary-color: #757575; /**основной светло серый цвет текста**/
   --text-primary-font: Roboto, sans-serif; /**основшой шрифт текта**/
   --text-secondary-font: Raleway, sans-serif; /**шрифт текста логотипа**/
 }
@@ -27,66 +24,73 @@ body {
 .current {
   color: var(--accent-color);
 }
-/*  HEADER И FOOOTER НАЧАЛO */
+
+/* НEADER */
 /* LOGO-HEADER + LOGO-FOOTER*/
 .logo {
   font-family: var(--text-secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo-header {
-  color: var(--logo-black-color);
+  color: #000000;
 }
 .logo-footer {
   color: var(--primary-white-color);
 }
 
 /*НАВИГАЦИЯ САЙТА И КОНТАКТЫ В ХЕДЕРЕ */
-.nav,
-.contact {
+.nav-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.nav-item {
   color: var(--text-primary-color);
 }
 .contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--text-secondary-color);
 }
 .nav-item:focus,
 .nav-item:hover,
-.contact-item:focus,
-.contact-item:hover {
+.contact-header:focus,
+.contact-header:hover {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
+
 /* FOTTER */
+.footer {
+  background-color: var(--theme-dark-color);
+}
 address {
   font-style: normal;
 }
-.address {
+.address-street {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: var(--theme-dark-color);
-}
-.address-street {
   color: var(--primary-white-color);
 }
 .contact-footer {
-  color: var(--contact-footer-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .contact-footer:hover,
 .contact-footer:focus {
   color: var(--accent-color);
 }
-/* -HEADER, FOTTER КОНЕЦ */
 
-/* MAIN НАЧАЛО */
+/* MAIN*/
 /* HERO */
 .hero {
   background-color: var(--theme-dark-color);
@@ -113,16 +117,15 @@ address {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--btn-hero-hover-color);
+  background-color: #188ce8;
 }
 
-/* СЕКЦИИ*/
 /* ОСОБЕННОСТИ */
-
 .features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features-text {
@@ -131,6 +134,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--text-secondary-color);
 }
+
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ + НАША КОМАНДА */
 .section-title {
   font-weight: 700;
@@ -145,23 +149,24 @@ address {
 .team-card {
   background-color: var(--primary-white-color);
 }
-.team-title,
-.team-text {
+.team-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-title {
-  font-weight: 500;
-}
 .team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--text-secondary-color);
 }
 
-/*////////////////////////////////////////////////////  */
+/*///////////////////////ВТОРАЯ СТРАНИЦА/////////////////////////////  */
 /*ПОРТФОЛИО */
-.button-filter {
+.portfolio-button {
   font-family: var(--text-primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -172,9 +177,9 @@ address {
   color: var(--text-primary-color);
   background-color: var(--theme-light-color);
 }
-.button-filter:active,
-.button-filter:hover,
-.button-filter:focus {
+.portfolio-button:active,
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -184,7 +189,7 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-filter {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
