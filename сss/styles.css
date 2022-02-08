@@ -40,18 +40,17 @@ body {
 }
 
 /*НАВИГАЦИЯ САЙТА И КОНТАКТЫ В ХЕДЕРЕ */
-.nav-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-primary-color);
-}
+.nav-item,
 .contact-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav-item {
+  color: var(--text-primary-color);
+}
+.contact-header {
   color: var(--text-secondary-color);
 }
 .nav-item:focus,
@@ -71,16 +70,16 @@ body {
 address {
   font-style: normal;
 }
-.address-street {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-}
+.address-street,
 .contact-footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.address-street {
+  color: var(--primary-white-color);
+}
+.contact-footer {
   color: rgba(255, 255, 255, 0.6);
 }
 .contact-footer:hover,
@@ -147,18 +146,17 @@ address {
 .team-card {
   background-color: var(--primary-white-color);
 }
-.team-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+.team-title,
 .team-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.team-title {
+  font-weight: 500;
+}
+.team-text {
   color: var(--text-secondary-color);
 }
 
